@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js (if applicable)
+node_modules/
+
+# Ethereum keys and sensitive files
+*.key
+*.pem
+
+# Environment variables
+.env
+.env.*
+
+# Ignore compiled contracts (if applicable)
+*.json
+artifacts/
